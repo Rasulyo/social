@@ -1,0 +1,17 @@
+
+  .friends{
+    display: flex;
+    width: 100%;
+    padding: 2%;
+    flex-direction: row;
+  }
+  .friends_item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .friends_item img{
+    width: 50px;
+    height: auto;
+  }

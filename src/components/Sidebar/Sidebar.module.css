@@ -1,0 +1,22 @@
+.nav{
+    grid-area: b;
+    background-color: blueviolet;
+    padding: 10%;
+  }
+  .item a{
+    color: white;
+    text-decoration: none;
+  }
+  .item a.activeLink{
+    color: gold;
+    text-decoration: none;
+  }
+  .friends{
+    display: flex;
+  }
+  .friends_item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }

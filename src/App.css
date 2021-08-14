@@ -1,11 +1,21 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
+  display: grid;
+  width: 900px;
+  margin: 0 auto;
+  grid-template-rows: 80px 1fr ;
+  grid-template-columns: 4fr 10fr;
+  grid-template-areas: "a a"
+  "b c";
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.app-content{
+    grid-area: c;
+    background-color: brown;
 }
+
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -13,16 +23,6 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
 .App-link {
   color: #61dafb;

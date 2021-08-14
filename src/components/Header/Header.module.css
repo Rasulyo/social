@@ -1,0 +1,10 @@
+.header{
+  grid-area: a;
+  background-color: #cc5900;
+}
+.logo {
+    height: 50px;
+    /* text-align: start; */
+  }
+  
+
